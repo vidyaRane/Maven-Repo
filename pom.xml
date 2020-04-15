@@ -27,6 +27,20 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+	<repository>
+		<id>myMavenRepo.read</id>
+		<url>https://mymavenrepo.com/repo/1KvMmFMsD2T3T3V4Z7ch/</url>
+	</repository>
+  </repositories>
+
+  <distributionManagement>
+	<repository>
+		<id>myMavenRepo.write</id>
+		<url>https://mymavenrepo.com/repo/DpDNiQJZout8bdzODdDA/</url>
+	</repository>  
+  </distributionManagement>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
